@@ -17,6 +17,7 @@ function printArray(array){
     console.log(array[i]);
   }
 }
+printArray(a);
 
 function whileLoop(number){
   while(number > 0){
