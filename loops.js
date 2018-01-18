@@ -10,15 +10,6 @@ function forLoop(array){
   return array;
 }
 
-function printArray(array){
-  for(let i = 0; i<array.length; i++){
-    console.log(array[i]);
-  }
-}
-
-var a = [];
-printArray(forLoop(a));
-
 function whileLoop(number){
   while(number > 0){
     console.log(number);
@@ -39,3 +30,12 @@ function doWhileLoop(array){
   }
   
 }
+// Test-functions to see if the output of the functions match what's expected //
+function printArray(array){
+  for(let i = 0; i<array.length; i++){
+    console.log(array[i]);
+  }
+}
+
+var a = [];
+printArray(forLoop(a));
