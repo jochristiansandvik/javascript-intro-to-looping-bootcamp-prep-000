@@ -10,13 +10,13 @@ function forLoop(array){
   return array;
 }
 
-var a = [];
-forLoop(a);
 function printArray(array){
   for(let i = 0; i<array.length; i++){
     console.log(array[i]);
   }
 }
+
+var a = [];
 printArray(forLoop(a));
 
 function whileLoop(number){
