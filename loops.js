@@ -33,4 +33,8 @@ function maybeTrue() {
 function doWhileLoop(array){
   do
     {array.splice(array.length-1, 1)}  
+  while(1>2){
+    
+  }
+  
 }
